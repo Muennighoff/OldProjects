@@ -1,0 +1,65 @@
+.navbar {
+    position: fixed;
+}
+/*home page*/
+.page-wrapper #btn-1 {
+    position: absolute;
+    top:1%;
+    left:1%;
+    z-index:1500;
+}
+.page-wrapper #btn-2 {
+    position: absolute;
+    top:1%;
+    right:1%;
+    z-index:1500;
+}
+.page-wrapper #btn-3 {
+    position: absolute;
+    bottom:1%;
+    left:1%;
+    z-index:1500;
+}
+.page-wrapper #btn-4 {
+    position: absolute;
+    bottom:1%;
+    right:1%;
+    z-index:1500;
+}
+.m-stack__item .m-topbar__nav-wrapper {
+    position: absolute;
+    padding-left:45%;
+}
+span.m-topbar__userpic img {
+    width:75px;
+}
+.social-box {
+    border:1px solid #ebedf2;
+    padding:10px;
+}
+.social-box ul {
+    padding:5px;
+}
+.social-box li {
+    display: inline-table;
+    background:#c9d3e2;
+    border:2px solid #85888d;
+    padding: 2px;
+    width:40px;
+    height:40px;
+    text-align:center;
+}
+.social-box li:hover {
+    border:2px solid #333;
+}
+.social-box li:active {
+    border:2px solid #111111;
+    background:#85888d;
+}
+.social-box li i {
+    font-size:26px;
+    color:#2d5aa3;
+}
+.social-box li.selected {
+    background-color:#000;
+}
